@@ -1,32 +1,35 @@
 export default function MasonryGrid() {
   return (
-  <div>
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710703536/IMG_7811_axtd8m.jpg" alt=""/>
-      </div>
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710703533/IMG_7812_sw9wbp.jpg" alt=""/>
-      </div>
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710703532/IMG_7809_hyxhoi.jpg" alt=""/>
-      </div>
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710703534/IMG_7810_i0cjrf.jpg" alt=""/>
-      </div>
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710703959/Screenshot_2024-03-17_at_12.32.26_PM_pr6oyg.png" alt=""/>
-      </div>
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710703686/Screenshot_2024-03-17_at_12.27.53_PM_gpwmvm.png" alt=""/>
-      </div>
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710797645/Screenshot_2024-03-18_at_2.33.13_PM_jgpgt3.png" alt=""/>
-      </div>
-      <div>
-        <img className="h-auto max-w-full rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710797649/Screenshot_2024-03-18_at_2.33.47_PM_vjmg15.png" alt=""/>
+    <div className="container mx-auto px-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-5 pb-10">
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710811977/IMG_7812_ietcx4.jpg" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710811977/IMG_7809_yqrnje.jpg" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710811977/IMG_7811_aftclm.jpg" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710811978/IMG_8762_kif1nb.jpg" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710811978/Screenshot_2024-03-18_at_5.54.32_PM_n0hjht.png" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710812147/Screenshot_2024-03-18_at_6.33.39_PM_mmbwkf.png" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710811983/Screenshot_2024-03-18_at_2.33.47_PM_el0fje.png" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710811982/Screenshot_2024-03-17_at_12.27.53_PM_i68xly.png" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710812247/Screenshot_2024-03-18_at_6.37.16_PM_nvcz9i.png" alt=""/>
+        </div>
       </div>
     </div>
-
-  </div>);
+  );
 }

@@ -55,9 +55,7 @@ export default function ContactForm() {
     return (
         <div className="min-h-screen bg-black text-white px-4 py-16 sm:px-6 lg:px-8">
             <div className="max-w-xl mx-auto">
-                <h1 className="text-4xl sm:text-6xl font-bold mb-8 text-center">
-                    get in touch
-                </h1>
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">get in touch</h2>
                 <form action={handleSubmit} className="space-y-6">
                     <div>
                         <label htmlFor="subject" className="block text-sm font-medium mb-1">
