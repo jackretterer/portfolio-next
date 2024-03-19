@@ -55,7 +55,7 @@ export default function ContactForm() {
     return (
         <div className="min-h-screen bg-black text-white px-4 py-16 sm:px-6 lg:px-8">
             <div className="max-w-xl mx-auto">
-            <h2 className="text-4xl font-bold text-white mb-12 text-center">get in touch</h2>
+                <h2 className="text-4xl font-bold text-white mb-12 text-center">get in touch</h2>
                 <form action={handleSubmit} className="space-y-6">
                     <div>
                         <label htmlFor="subject" className="block text-sm font-medium mb-1">
@@ -93,6 +93,8 @@ export default function ContactForm() {
                             required
                         ></textarea>
                     </div>
+                    <div className="g-recaptcha" data-sitekey="your_site_key"></div>
+                    <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" />
                     <button
                         type="submit"
                         className="w-full px-6 py-3 bg-black text-white border border-white rounded-md hover:bg-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-500"
