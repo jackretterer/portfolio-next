@@ -10,8 +10,8 @@ export default function About() {
             <div className="mx-auto w-3/4">
               <p className="text-white">
                 I am building products that help the world. That's pretty much it. I am a firm believer that technology has the potential to benefit the world. And when you build a good enough product its almost like a gift to the user.<br/><br/>
-                My biggest interests are in crypto, AI, finance and space. I've worked in some capacity in all of them, but have spent most of my time in AI.<br/><br/>
-                I am "jack" of all trades. I am capable of writing code but I view myself more as a builder. I know frontend, machine learning, data analysis and a little bit of backend. Outside of working and building projects I like skiing, running, investing, art, lifting, baking and being outside.
+                My biggest interests are in crypto, AI, finance and space. I&aposve worked in some capacity in all of them, but have spent most of my time in AI.<br/><br/>
+                I am &aposjack&apos of all trades. I am capable of writing code but I view myself more as a builder. I know frontend, machine learning, data analysis and a little bit of backend. Outside of working and building projects I like skiing, running, investing, art, lifting, baking and being outside.
               </p>
             </div>
           </div>
