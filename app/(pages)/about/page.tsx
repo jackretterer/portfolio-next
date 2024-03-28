@@ -21,7 +21,7 @@ export default function About() {
           </div>
         </div>
         <div className="container mx-auto px-4 pt-20">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center">some photos of me</h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">some photos</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           </div>
         </div>
