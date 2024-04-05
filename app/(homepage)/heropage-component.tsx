@@ -8,7 +8,7 @@ export function WavyBackgroundDemo() {
     <WavyBackground className="max-w-4xl mx-auto pb-40">
       <div className="text-center">
         <p className="text-4xl md:text-5xl lg:text-7xl text-white font-bold inter-var mb-8">
-          Hey, I'm Jack 👋
+          Hey, I&apos;m Jack 👋
         </p>
         <p className="text-xl md:text-2xl text-white font-bold inter-var mb-12">
           I like to build applications. Often to do with AI & Finance.
