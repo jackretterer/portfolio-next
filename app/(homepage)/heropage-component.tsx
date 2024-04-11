@@ -11,7 +11,7 @@ export function WavyBackgroundDemo() {
           Hey, I&apos;m Jack 👋
         </p>
         <p className="text-xl md:text-2xl text-white font-bold inter-var mb-12">
-          I like to build applications. Often to do with AI & Finance.
+          I like to build full stack applications.
         </p>
         <div className="flex justify-center space-x-8">
           <a
