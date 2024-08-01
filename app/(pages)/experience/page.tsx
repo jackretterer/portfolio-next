@@ -4,7 +4,7 @@ const Experience: FC = () => {
   return (
     <section className="bg-black py-24">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h2 className="text-4xl font-bold text-white mb-16 text-center tracking-tight">professional experience</h2>
+        <h2 className="text-4xl font-bold text-white mb-16 text-center tracking-tight">Professional Experience</h2>
         <div className="space-y-12">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} {...experience} />

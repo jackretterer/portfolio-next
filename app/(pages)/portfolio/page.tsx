@@ -5,7 +5,7 @@ const Portfolio: FC = () => {
   return (
     <section className="bg-black py-24">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h2 className="text-4xl font-bold text-white mb-16 text-center tracking-tight">portfolio</h2>
+        <h2 className="text-4xl font-bold text-white mb-16 text-center tracking-tight">Portfolio</h2>
         <div className="space-y-12">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />

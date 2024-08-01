@@ -1,6 +1,6 @@
 export default function MasonryGrid() {
   return (
-    <div className="container mx-auto px-4">
+    <div className="bg-black container mx-auto px-4">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-5 pb-10">
         <div className="aspect-w-1 aspect-h-1">
           <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710811977/IMG_7812_ietcx4.jpg" alt=""/>

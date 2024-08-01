@@ -16,22 +16,22 @@ export default function NavBar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-white">
-              jack retterer
+              Jack Retterer
             </Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link href="/about" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                about
+                About
               </Link>
               <Link href="/experience" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                experience
+                Experience
               </Link>
               <Link href="/portfolio" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                portfolio
+                Portfolio
               </Link>
               <Link href="/contact" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                contact
+                Contact
               </Link>
             </div>
           </div>
@@ -76,16 +76,16 @@ export default function NavBar() {
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link href="/about" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              about
+              About
             </Link>
             <Link href="/experience" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              experience
+              Experience
             </Link>
             <Link href="/portfolio" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              portfolio
+              Portfolio
             </Link>
             <Link href="/contact" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              contact
+              Contact
             </Link>
           </div>
         </div>
