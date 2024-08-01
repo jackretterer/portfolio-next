@@ -1,41 +1,14 @@
-export default function Portfolio() {
+import { FC } from 'react';
+import Link from 'next/link';
+
+const Portfolio: FC = () => {
   return (
-    <section className="bg-black py-20 space-background">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-white mb-12 text-center">
-          portfolio
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <section className="bg-black py-24">
+      <div className="container mx-auto px-4 max-w-4xl">
+        <h2 className="text-4xl font-bold text-white mb-16 text-center tracking-tight">portfolio</h2>
+        <div className="space-y-12">
           {projects.map((project, index) => (
-            <div
-              key={index}
-              className="bg-gray-900 rounded-lg shadow-lg p-6 border border-gray-700 hover:border-blue-500 transition duration-300"
-            >
-              <div className="mb-4">
-                <h3 className="text-2xl font-semibold text-white">{project.title}</h3>
-              </div>
-              <p className="text-gray-300 mb-4">{project.description}</p>
-              <div className="flex flex-wrap">
-                {project.techStack.map((tech, index) => (
-                  <span
-                    key={index}
-                    className="bg-gray-800 text-gray-400 rounded-full px-3 py-1 text-sm mr-2 mb-2"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className="mt-6">
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-blue-500 text-white rounded-full px-6 py-3 text-lg font-semibold transition duration-300 hover:bg-blue-600"
-                >
-                  Explore
-                </a>
-              </div>
-            </div>
+            <ProjectCard key={index} {...project} />
           ))}
         </div>
       </div>
@@ -43,19 +16,56 @@ export default function Portfolio() {
   );
 }
 
+interface ProjectProps {
+  title: string;
+  description: string;
+  techStack: string[];
+  link: string;
+}
+
+const ProjectCard: FC<ProjectProps> = ({ title, description, techStack, link }) => (
+  <div className="bg-black rounded-lg p-4 shadow-xl transition-all duration-300 hover:shadow-2xl hover:bg-zinc-750">
+    {link ? (
+      <Link href={link} passHref>
+        <h3 className="text-2xl font-semibold text-emerald-400 mb-2 cursor-pointer hover:text-emerald-300 transition-colors duration-300">
+          {title}
+        </h3>
+      </Link>
+    ) : (
+      <h3 className="text-2xl font-semibold text-emerald-400 mb-2">{title}</h3>
+    )}
+    <p className="text-zinc-300 mb-4">{description}</p>
+    <div className="flex flex-wrap mb-4">
+      {techStack.map((tech, index) => (
+        <span
+          key={index}
+          className="bg-zinc-800 text-zinc-400 rounded-full px-3 py-1 text-sm mr-2 mb-2"
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+  </div>
+);
+
 const projects = [
-  {
-    title: 'Advocate AI',
-    description:
-      'Helps college students and young professionals understand and navigate the legal world. Went through Founder University Cohort 7.',
-    techStack: ['Vercel', 'Next JS', 'Spring Boot', 'Django', 'AWS', 'Mistral', 'GPT'],
-    link: 'https://advocateai.xyz',
-  },
   {
     title: 'Vent',
     description: 'A digital person to help solve the loneliness pandemic.',
     techStack: ['Vercel', 'Next JS', 'Tailwind', 'Prisma', 'AWS', 'GPT (LLMs)', 'Elevan Labs'],
     link: 'https://www.jackretterer.xyz/',
+  },
+  {
+    title: 'Advocate AI',
+    description: 'Helps college students and young professionals understand and navigate the legal world. Went through Founder University Cohort 7.',
+    techStack: ['Vercel', 'Next JS', 'Spring Boot', 'Django', 'AWS', 'Mistral', 'GPT'],
+    link: 'https://advocateai.xyz',
+  },
+  {
+    title: 'Bridgeworx Consulting',
+    description: 'A team of experienced GTM experts within the field of Med Device.',
+    techStack: ['Vercel', 'Next JS', 'Typescript', 'Tailwind'],
+    link: 'https://bridgeworx.co',
   },
   {
     title: 'R.A. Scheuring',
@@ -73,6 +83,8 @@ const projects = [
     title: 'Hardware Engineer',
     description: 'Built a server from the ground up to mine cryptocurrencies.',
     techStack: ['Harddrives', 'GPUs', 'Linux', 'SSDs', 'JBODs'],
-    link: '',
+    link: 'https://twitter.com/jaretterer',
   },
 ];
+
+export default Portfolio;

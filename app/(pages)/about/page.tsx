@@ -15,7 +15,7 @@ export default function About() {
                 <div className="pt-10 pb-20">
                 <SolarSystem/>
                 </div>
-                I am &apos;jack&apos; of all trades. I am capable of writing code but I view myself more as a builder. I know frontend, machine learning, data analysis and a little bit of backend. Outside of working and building projects I like skiing, running, investing, art, lifting, baking and being outside.
+                I am &apos;jack&apos; of all trades. I am capable of writing code but I view myself more as a builder. I full stack, ML, and data science. I spend most of my time these days wrangling LLMs. Outside of work, I enjoy skiing, running, investing, art, lifting, baking, being outdoors, and competitive gaming.
               </p>
             </div>
           </div>

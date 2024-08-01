@@ -29,6 +29,16 @@ export default function MasonryGrid() {
         <div className="aspect-w-1 aspect-h-1">
           <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710812247/Screenshot_2024-03-18_at_6.37.16_PM_nvcz9i.png" alt=""/>
         </div>
+
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1722544723/000067220034_copy_inj0cn.png" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1722544723/IMG_2880_copy_nomnnl.png" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1722544850/Screenshot_2024-08-01_at_1.35.36_PM_oiyaqr.png" alt=""/>
+        </div>
       </div>
     </div>
   );
