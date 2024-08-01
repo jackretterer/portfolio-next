@@ -53,7 +53,7 @@ const projects = [
     title: 'Vent',
     description: 'A digital person to help solve the loneliness pandemic.',
     techStack: ['Vercel', 'Next JS', 'Tailwind', 'AWS', 'LLMs', 'Groq', 'Whisper', 'Eleven Labs', 'Splunk', 'MySQL', 'Pinecone'],
-    link: 'https://www.jackretterer.xyz/',
+    link: 'https://www.ventnow.ai',
   },
   {
     title: 'Advocate AI',
