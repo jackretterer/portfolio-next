@@ -8,7 +8,7 @@ const ContactPage: FC = () => {
         <div className="h-[92.5vh] bg-gradient-to-b from-black via-black to-indigo-900 text-white flex flex-col relative overflow-hidden">
             <div className="flex-grow flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8 z-10">
                 <div className="max-w-4xl w-full space-y-16 text-center">
-                    <h1 className="text-6xl font-bold tracking-tight space-font">
+                    <h1 className="text-6xl font-bold tracking-tight">
                         Contact Me
                     </h1>
                     <div className="flex justify-center space-x-8">
@@ -24,9 +24,6 @@ const ContactPage: FC = () => {
                 </div>
             </div>
             <style jsx>{`
-                .space-font {
-                    text-shadow: 0 0 2px #fff, 0 0 6px #ff00de;
-                }
                 .planet-link {
                     display: inline-block;
                     width: 120px;
