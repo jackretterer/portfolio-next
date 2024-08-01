@@ -12,11 +12,11 @@ export default function About() {
               <p className="text-white">
                 I am building products that help the world. That&apos;s pretty much it. I am a firm believer that technology has the potential to benefit the world. And when you build a good enough product its almost like a gift to the user.<br/><br/>
                 My biggest interests are in crypto, AI, finance and space. I&apos;ve worked in some capacity in all of them, but have spent most of my time in AI.<br/><br/>
+                I am a &apos;jack&apos; of all trades. I am capable of writing code but I view myself more as a builder. I know full stack, ML/AI, and data science. I spend most of my time these days wrangling LLMs. Outside of work, I enjoy skiing, running, investing, art, lifting, baking, being outdoors, and competitive gaming.
                 <div className="pt-10 pb-20">
                 </div>
-                I am a &apos;jack&apos; of all trades. I am capable of writing code but I view myself more as a builder. I know full stack, ML/AI, and data science. I spend most of my time these days wrangling LLMs. Outside of work, I enjoy skiing, running, investing, art, lifting, baking, being outdoors, and competitive gaming.
+                <SolarSystem/>
               </p>
-              <SolarSystem/>
             </div>
           </div>
         </div>
