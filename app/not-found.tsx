@@ -11,7 +11,7 @@ export default function NotFound() {
                         Lost in Space?
                     </h1>
                     <p className="text-xl text-gray-400 mb-8">
-                        Oops! Your page got sucked into a black hole. Don't worry, even light can't escape those things!
+                        Oops! Your page got sucked into a black hole. Don&apos;t worry, even light can&apos;t escape those things!
                     </p>
                     <Link
                         href="/"
