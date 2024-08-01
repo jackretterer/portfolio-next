@@ -52,7 +52,7 @@ const projects = [
   {
     title: 'Vent',
     description: 'A digital person to help solve the loneliness pandemic.',
-    techStack: ['Vercel', 'Next JS', 'Tailwind', 'Prisma', 'AWS', 'GPT (LLMs)', 'Elevan Labs'],
+    techStack: ['Vercel', 'Next JS', 'Tailwind', 'AWS', 'LLMs', 'Groq', 'Whisper', 'Eleven Labs', 'Splunk', 'MySQL', 'Pinecone'],
     link: 'https://www.jackretterer.xyz/',
   },
   {
@@ -69,8 +69,8 @@ const projects = [
   },
   {
     title: 'R.A. Scheuring',
-    description: 'Built a portfolio website for an Author. Updated her website to use the latest technologies and best practices.',
-    techStack: ['Vercel', 'Next JS', 'Mailchimp'],
+    description: 'Built a portfolio website for R.A. Scheuring. Writer of DRYP: The Final Pandemic.',
+    techStack: ['Vercel', 'Next JS', 'Mailchimp', 'Typescript', 'Tailwind'],
     link: 'https://rascheuring.vercel.app/',
   },
   {
