@@ -62,7 +62,7 @@ const projects = [
     link: 'https://advocateai.xyz',
   },
   {
-    title: 'Bridgeworx Consulting',
+    title: 'BridgeworX Consulting',
     description: 'A team of experienced GTM experts within the field of Med Device.',
     techStack: ['Vercel', 'Next JS', 'Typescript', 'Tailwind'],
     link: 'https://bridgeworx.co',

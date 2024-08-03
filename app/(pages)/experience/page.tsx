@@ -38,10 +38,10 @@ const ExperienceCard: FC<ExperienceProps> = ({ company, position, duration, desc
 const experiences = [
   {
     company: 'Vent AI',
-    position: 'Founder',
+    position: 'Founder & CEO',
     duration: 'March 2023 - Present',
     description: [
-      'Led development of an AI companion app, bridging the gap between friendship and therapy',
+      'Led development and GTM for an AI companion app, bridging the gap between friendship and therapy',
       'Built frontend using React & Next.js, and backend with TypeScript in Express',
       'Developed a mobile app with Expo and React Native',
       'Engineered memory solutions for LLMs to enhance user experience',
@@ -63,15 +63,25 @@ const experiences = [
     ],
   },
   {
-    company: 'Gemini',
-    position: 'Associate',
+    company: 'Gemini | Nifty Gateway',
+    position: 'Technical Resource on Business Development Team',
     duration: 'January 2022 - July 2023',
     description: [
-      'Developed data dashboards using Looker to track product performance and user engagement',
-      'Served as key liaison between clients and engineering/product management teams',
+      'Exceeded quota every month for a year, selling digital fine art',
       'Contributed to expanding self-service tool user base from 0 to 1,500 users in 9 months, personally responsible for 40% growth',
+      'Developed data dashboards using Looker & Dune Analytics to track product performance and user engagement',
+      'Served as key liaison between clients and engineering/product management teams driving product roadmaps',
       `Generated external financial reports using Snowflake and Pandas for enterprise partners' tax documentation`,
       'Translated client feedback into actionable insights for new product features'
+    ],
+  },
+  {
+    company: 'Intertek',
+    position: 'Electrical Safety Engineer',
+    duration: 'January 2021 - January 2022',
+    description: [
+      `Ensured Google's data center equipment was safe and under electrical safety compliance`,
+      'Tried not to electicute myself everyday. Somedays I was not very successful at that',
     ],
   },
   {
@@ -96,7 +106,7 @@ const experiences = [
   },
   {
     company: 'TextRecruit',
-    position: 'AI Engineer',
+    position: 'AI Engineer (Intern)',
     duration: 'August 2017 - March 2018',
     description: [
       'Developed chatbots for HR using IBM Watson to facilitate company onboarding and recruiting',
