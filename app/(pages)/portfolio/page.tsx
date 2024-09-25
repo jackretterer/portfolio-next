@@ -67,12 +67,12 @@ const projects = [
     techStack: ['Vercel', 'Next JS', 'Typescript', 'Tailwind'],
     link: 'https://bridgeworx.co',
   },
-  {
-    title: 'R.A. Scheuring',
-    description: 'Built a portfolio website for R.A. Scheuring. Writer of DRYP: The Final Pandemic.',
-    techStack: ['Vercel', 'Next JS', 'Mailchimp', 'Typescript', 'Tailwind'],
-    link: 'https://rascheuring.vercel.app/',
-  },
+  // {
+  //   title: 'R.A. Scheuring',
+  //   description: 'Built a portfolio website for R.A. Scheuring. Writer of DRYP: The Final Pandemic.',
+  //   techStack: ['Vercel', 'Next JS', 'Mailchimp', 'Typescript', 'Tailwind'],
+  //   link: 'https://rascheuring.vercel.app/',
+  // },
   {
     title: 'Blockchain Developer',
     description: 'Built a variety of NFT & DeFi applications.',
