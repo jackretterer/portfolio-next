@@ -149,7 +149,7 @@ export default function NotFound() {
     <div className="relative h-[90vh] overflow-hidden bg-black">
       <div className="flex flex-col items-center">
       <h1 className="text-4xl text-center font-bold text-white mt-20">
-          Lost in Space?
+          lost?
       </h1>
         </div>
       <canvas ref={canvasRef} className="absolute inset-0" />

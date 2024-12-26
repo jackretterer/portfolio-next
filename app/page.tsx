@@ -3,7 +3,7 @@ import { WavyBackgroundDemo } from "./(homepage)/heropage-component";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="h-[90vh] bg-black">
       <WavyBackgroundDemo/>
     </div>
   );

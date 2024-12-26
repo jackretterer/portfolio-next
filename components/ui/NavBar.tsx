@@ -15,23 +15,23 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-white">
-              Jack Retterer
+            <Link href="/" className="text-white font-light tracking-wider">
+              jack
             </Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link href="/about" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                About
+              <Link href="/about" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                about
               </Link>
-              <Link href="/experience" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Experience
+              <Link href="/experience" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                experience
               </Link>
-              <Link href="/portfolio" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Portfolio
+              <Link href="/portfolio" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                portfolio
               </Link>
-              <Link href="/contact" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Contact
+              <Link href="/contact" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                contact
               </Link>
             </div>
           </div>

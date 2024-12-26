@@ -4,7 +4,7 @@ const Experience: FC = () => {
   return (
     <section className="bg-black py-24">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h2 className="text-4xl font-bold text-white mb-16 text-center tracking-tight">Professional Experience</h2>
+        <h2 className="text-4xl font-bold text-white mb-16 text-center tracking-tight">my experience</h2>
         <div className="space-y-12">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} {...experience} />
@@ -37,16 +37,11 @@ const ExperienceCard: FC<ExperienceProps> = ({ company, position, duration, desc
 
 const experiences = [
   {
-    company: 'Vent AI',
+    company: 'Vent',
     position: 'Founder & CEO',
-    duration: 'March 2023 - Present',
+    duration: 'June 2024 - Present',
     description: [
-      'Led development and GTM for an AI companion app, bridging the gap between friendship and therapy',
-      'Built frontend using React & Next.js, and backend with TypeScript in Express',
-      'Developed a mobile app with Expo and React Native',
-      'Engineered memory solutions for LLMs to enhance user experience',
-      'Optimized Retrieval Augmented Generation (RAG) for delivering accurate context to models with low latency',
-      'Conducted user research and usability testing to iterate on product design',
+      'Building a system that understands human emotions.',
     ],
   },
   {
