@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 const meta = {
-  title: 'Tomorrow will be better than today.',
+  title: 'Building cool products.',
   description: `Jack Retterer`,
   robots: 'follow, index',
   favicon: '/favicon.ico',
