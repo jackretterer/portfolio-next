@@ -13,7 +13,7 @@ export default function About() {
               <p className="text-white">
                 I am building products that help the world. That&apos;s pretty much it. I am a firm believer that technology has the potential to benefit humankind and when you build a good enough product it&apos;s almost like a gift.<br/><br/>
                 I am a &apos;jack&apos; of all trades. I enjoy writing fullstack code but I view myself more as a builder. These days, I spend most of my time wrangling LLMs and building custom long-term memory systems.<br/><br/>
-                My biggest interests are in AI, crypto, finance and space. I&apos;ve worked in some capacity in all of them, but have spent most of my time in AI. I am currently building an AI wellness app called <Link href="https://ventnow.ai" className="font-bold text-indigo-500">Vent</Link>.<br/><br/>
+                My biggest interests are in AI, crypto, finance and space. I&apos;ve worked in some capacity in all of them, but have spent most of my time in AI. I am currently building Aspen over at <Link href="https://ventnow.ai" className="font-bold text-indigo-500">Vent</Link>.<br/><br/>
                 Outside of work, I enjoy skiing, running, investing, being outdoors, and competitive gaming. I&apos;m also known to bake a pretty wicked cookie.
                 <div className="pt-10 pb-20">
                 </div>

@@ -39,7 +39,7 @@ const experiences = [
   {
     company: 'Vent',
     position: 'Founder & CEO',
-    duration: 'June 2024 - Present',
+    duration: 'January 2024 - Present',
     description: [
       'Building a system that understands human emotions.',
     ],
@@ -49,25 +49,28 @@ const experiences = [
     position: 'Developer Advocate Engineer',
     duration: 'July 2023 - December 2023',
     description: [
-      `Led team's community outreach program, scaling API adoption from 0 to 3500 users`,
-      'Developed tailored RAG systems for enterprise clients using open-source and closed-source LLMs',
-      'Authored technical documents, blogs, and social media posts to maximize product usage',
-      'Built and maintained comprehensive technical documentation for OSS and hosted solutions',
-      'Engaged with customers and community members, gathering feedback to drive product improvements',
-      'Fine-tuned open-source embedding models and LLMs, including LLama and Mistral, for on-premise systems'
+      'I failed at this job, but it was part of the process.'
+      // `Led team's community outreach program, scaling API adoption from 0 to 3500 users`,
+      // 'Developed tailored RAG systems for enterprise clients using open-source and closed-source LLMs',
+      // 'Authored technical documents, blogs, and social media posts to maximize product usage',
+      // 'Built and maintained comprehensive technical documentation for OSS and hosted solutions',
+      // 'Engaged with customers and community members, gathering feedback to drive product improvements',
+      // 'Fine-tuned open-source embedding models and LLMs, including LLama and Mistral, for on-premise systems'
     ],
   },
   {
-    company: 'Gemini | Nifty Gateway',
-    position: 'Technical Resource on Business Development Team',
+    company: 'Gemini ',
+    position: 'Wore a lot of hats',
     duration: 'January 2022 - July 2023',
     description: [
-      'Exceeded quota every month for a year, selling digital fine art',
-      'Contributed to expanding self-service tool user base from 0 to 1,500 users in 9 months, personally responsible for 40% growth',
-      'Developed data dashboards using Looker & Dune Analytics to track product performance and user engagement',
-      'Served as key liaison between clients and engineering/product management teams driving product roadmaps',
-      `Generated external financial reports using Snowflake and Pandas for enterprise partners' tax documentation`,
-      'Translated client feedback into actionable insights for new product features'
+      `Somehow I didn't get laid off.`,
+      `My boss was a good dude.`,
+      // 'Exceeded quota every month for a year, selling digital fine art',
+      // 'Contributed to expanding self-service tool user base from 0 to 1,500 users in 9 months, personally responsible for 40% growth',
+      // 'Developed data dashboards using Looker & Dune Analytics to track product performance and user engagement',
+      // 'Served as key liaison between clients and engineering/product management teams driving product roadmaps',
+      // `Generated external financial reports using Snowflake and Pandas for enterprise partners' tax documentation`,
+      // 'Translated client feedback into actionable insights for new product features'
     ],
   },
   {
@@ -75,8 +78,9 @@ const experiences = [
     position: 'Electrical Safety Engineer',
     duration: 'January 2021 - January 2022',
     description: [
-      `Ensured Google's data center equipment was safe and under electrical safety compliance`,
-      'Tried not to electicute myself everyday. Somedays I was not very successful at that',
+      `Tried not to electrocute myself everyday. Somedays I was not very successful at that`
+      // `Ensured Google's data center equipment was safe and under electrical safety compliance`,
+      // 'Tried not to electicute myself everyday. Somedays I was not very successful at that',
     ],
   },
   {

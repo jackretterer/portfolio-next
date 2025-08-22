@@ -3,6 +3,27 @@ export default function MasonryGrid() {
     <div className="bg-black container mx-auto px-4">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-5 pb-10">
         <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1755846668/IMG_3316_kjmfvx.jpg" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1755846701/IMG_3320_au3a8k.jpg" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1755846669/IMG_3318_fymm7e.jpg" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1755846864/Generated_Image_August_22_2025_-_12_14AM_cmwfrk.jpg" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1755846668/IMG_3317_hbzka8.jpg" alt=""/>
+        </div>
+        <div className="aspect-w-1 aspect-h-1">
+          <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1755846668/Generated_Image_August_22_2025_-_12_07AM_iflqxx.jpg" alt=""/>
+        </div>
+
+
+
+        <div className="aspect-w-1 aspect-h-1">
           <img className="object-cover rounded-lg" src="https://res.cloudinary.com/dko9vskvn/image/upload/v1710811977/IMG_7812_ietcx4.jpg" alt=""/>
         </div>
         <div className="aspect-w-1 aspect-h-1">

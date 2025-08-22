@@ -27,9 +27,9 @@ export default function NavBar() {
               <Link href="/experience" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 experience
               </Link>
-              <Link href="/portfolio" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+              {/* <Link href="/portfolio" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 portfolio
-              </Link>
+              </Link> */}
               <Link href="/contact" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 contact
               </Link>
