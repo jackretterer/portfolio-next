@@ -81,9 +81,9 @@ export default function NavBar() {
             <Link href="/experience" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Experience
             </Link>
-            <Link href="/portfolio" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+            {/* <Link href="/portfolio" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Portfolio
-            </Link>
+            </Link> */}
             <Link href="/contact" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Contact
             </Link>
