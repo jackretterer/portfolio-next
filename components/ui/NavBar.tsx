@@ -76,16 +76,16 @@ export default function NavBar() {
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link href="/about" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              About
+              about
             </Link>
             <Link href="/experience" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              Experience
+              experience
             </Link>
             {/* <Link href="/portfolio" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Portfolio
             </Link> */}
             <Link href="/contact" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              Contact
+              contact
             </Link>
           </div>
         </div>
