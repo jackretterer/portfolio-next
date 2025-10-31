@@ -38,9 +38,9 @@ const ExperienceCard: FC<ExperienceProps> = ({ company, position, duration, desc
 
 const experiences = [
   {
-    company: 'Vent',
+    company: 'Vent Now',
     position: 'Founder & CEO',
-    duration: 'January 2024 - Present',
+    duration: 'July 2024 - Present',
     description: [
       'Building a system that understands human emotions.',
     ],
@@ -48,7 +48,7 @@ const experiences = [
   {
     company: 'Learning',
     position: 'Bunch of places',
-    duration: 'September 1998 - January 2024',
+    duration: 'September 1998 - July 2024',
     description: [],
   },
 
