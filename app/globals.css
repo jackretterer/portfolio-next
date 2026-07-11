@@ -1,34 +1,131 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@theme {
+  --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-gradient-conic: conic-gradient(
+    from 180deg at 50% 50%,
+    var(--tw-gradient-stops)
+  );
+
+  @keyframes spotlight {
+    0% {
+      opacity: 0;
+      transform: translate(-72%, -62%) scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -40%) scale(1);
+    }
+  }
+  @keyframes walk-path {
+    0% {
+      transform: translateX(-100px) translateY(80vh);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(20vw) translateY(80vh);
+    }
+    60% {
+      transform: translateX(60vw) translateY(80vh);
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(calc(100vw + 100px)) translateY(80vh);
+      opacity: 0;
+    }
+  }
+  @keyframes left-arm-swing {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(15deg);
+    }
+  }
+  @keyframes right-arm-swing {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-15deg);
+    }
+  }
+  @keyframes left-leg-swing {
+    0% {
+      transform: rotate(8deg);
+    }
+    50% {
+      transform: rotate(-8deg);
+    }
+    100% {
+      transform: rotate(8deg);
+    }
+  }
+  @keyframes right-leg-swing {
+    0% {
+      transform: rotate(-8deg);
+    }
+    50% {
+      transform: rotate(8deg);
+    }
+    100% {
+      transform: rotate(-8deg);
+    }
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility text-balance {
+  text-wrap: balance;
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 0, 0, 0;
+      --background-end-rgb: 0, 0, 0;
+    }
+  }
+
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
   }
 }
 

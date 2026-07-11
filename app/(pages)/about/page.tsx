@@ -15,10 +15,9 @@ export default function About() {
                 I am a &apos;jack&apos; of all trades. I enjoy writing fullstack code but I view myself more as a builder. These days, I spend most of my time wrangling LLMs and building custom long-term memory systems.<br/><br/>
                 My biggest interests are in AI, crypto, finance and space. I&apos;ve worked in some capacity in all of them, but have spent most of my time in AI. I am currently building Aspen over at <Link href="https://ventnow.ai" className="font-bold text-indigo-500">Vent Now</Link>.<br/><br/>
                 Outside of work, I enjoy skiing, running, investing, being outdoors, and competitive gaming. I&apos;m also known to bake a pretty wicked cookie.
-                <div className="pt-10 pb-20">
-                </div>
-                <SolarSystem/>
               </p>
+              <div className="pt-10 pb-20"></div>
+              <SolarSystem/>
             </div>
           </div>
         </div>

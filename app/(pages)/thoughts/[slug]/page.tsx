@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getAllSlugs, getThoughtBySlug } from "@/lib/thoughts";
 
 type Props = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateStaticParams() {
@@ -12,13 +12,15 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = await getThoughtBySlug(params.slug);
+  const { slug } = await params;
+  const post = await getThoughtBySlug(slug);
   if (!post) return { title: "thought not found" };
   return { title: post.title, description: post.title };
 }
 
 export default async function ThoughtPage({ params }: Props) {
-  const post = await getThoughtBySlug(params.slug);
+  const { slug } = await params;
+  const post = await getThoughtBySlug(slug);
   if (!post) return notFound();
 
   const paragraphs = post.content.trim().split(/\n\s*\n/);

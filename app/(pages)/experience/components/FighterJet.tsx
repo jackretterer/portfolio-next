@@ -8,15 +8,15 @@ export const FighterJet: FC = () => {
         {/* Jet Body */}
         <div className="relative">
           {/* Main body */}
-          <div className="w-8 h-2 bg-emerald-400 rounded-sm"></div>
+          <div className="w-8 h-2 bg-emerald-400 rounded-xs"></div>
 
           {/* Wings */}
-          <div className="absolute -left-3 top-0 w-3 h-1 bg-emerald-500 rounded-sm transform -rotate-12"></div>
-          <div className="absolute -right-3 top-0 w-3 h-1 bg-emerald-500 rounded-sm transform rotate-12"></div>
+          <div className="absolute -left-3 top-0 w-3 h-1 bg-emerald-500 rounded-xs transform -rotate-12"></div>
+          <div className="absolute -right-3 top-0 w-3 h-1 bg-emerald-500 rounded-xs transform rotate-12"></div>
 
           {/* Tail */}
-          <div className="absolute -left-2 -top-1 w-2 h-1 bg-emerald-400 rounded-sm"></div>
-          <div className="absolute -right-2 -top-1 w-2 h-1 bg-emerald-400 rounded-sm"></div>
+          <div className="absolute -left-2 -top-1 w-2 h-1 bg-emerald-400 rounded-xs"></div>
+          <div className="absolute -right-2 -top-1 w-2 h-1 bg-emerald-400 rounded-xs"></div>
 
           {/* Nose cone */}
           <div className="absolute left-8 top-0 w-2 h-2 bg-emerald-300 rounded-full transform rotate-45"></div>

@@ -1,7 +1,12 @@
 "use client";
 import { cn } from "@/utils/cn";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useSyncExternalStore } from "react";
 import { createNoise3D } from "simplex-noise";
+
+const subscribeToNothing = () => () => {};
+const getIsSafari = () =>
+  navigator.userAgent.includes("Safari") &&
+  !navigator.userAgent.includes("Chrome");
 
 export const WavyBackground = ({
   children,
@@ -99,15 +104,12 @@ export const WavyBackground = ({
     };
   }, []);
 
-  const [isSafari, setIsSafari] = useState(false);
-  useEffect(() => {
-    // I'm sorry but i have got to support it on safari.
-    setIsSafari(
-      typeof window !== "undefined" &&
-        navigator.userAgent.includes("Safari") &&
-        !navigator.userAgent.includes("Chrome")
-    );
-  }, []);
+  // Canvas ctx.filter is unsupported on Safari, so blur via CSS there instead.
+  const isSafari = useSyncExternalStore(
+    subscribeToNothing,
+    getIsSafari,
+    () => false
+  );
 
   return (
     <div

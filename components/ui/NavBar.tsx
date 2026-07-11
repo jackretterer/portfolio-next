@@ -24,12 +24,12 @@ export default function NavBar() {
               <Link href="/about" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 about
               </Link>
-              <Link href="/experience" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                experience
-              </Link>
               {/* <Link href="/portfolio" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 portfolio
               </Link> */}
+              <Link href="/stars" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                stars
+              </Link>
               <Link href="/contact" className="text-white font-light tracking-wider hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 contact
               </Link>
@@ -39,7 +39,7 @@ export default function NavBar() {
             <button
               onClick={toggleMenu}
               type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-hidden focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
@@ -78,12 +78,12 @@ export default function NavBar() {
             <Link href="/about" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               about
             </Link>
-            <Link href="/experience" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-              experience
-            </Link>
             {/* <Link href="/portfolio" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               Portfolio
             </Link> */}
+            <Link href="/stars" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              stars
+            </Link>
             <Link href="/contact" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
               contact
             </Link>
