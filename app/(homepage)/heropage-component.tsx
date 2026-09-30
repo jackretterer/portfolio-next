@@ -27,9 +27,13 @@ const TypewriterText = ({ text, delay = 100 }: { text: string; delay?: number })
   }, []);
 
   return (
-    <span className="text-3xl font-bold text-white">
-      {displayText}
-      {showCursor && currentIndex < text.length && <span className="animate-pulse">|</span>}
+    <span className="relative inline-block text-3xl font-bold text-white">
+      {/* Invisible full text reserves the final width so the centered box never shifts */}
+      <span className="invisible" aria-hidden="true">{text}</span>
+      <span className="absolute left-0 top-0 whitespace-nowrap">
+        {displayText}
+        {showCursor && currentIndex < text.length && <span className="animate-pulse">|</span>}
+      </span>
     </span>
   );
 };

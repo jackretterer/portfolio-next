@@ -27,7 +27,7 @@ export default function About() {
           </div>
         </div>
       </section>
-      <div className="w-95 bg-black">
+      <div className="bg-black">
         <MasonryGrid />
       </div>
     </div>
